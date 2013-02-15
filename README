@@ -1,0 +1,10 @@
+iTunes Connect Financial Report Analyzer
+
+Commandline-Script which reads a bunch of iTunes Connect Financial Reports
+(*.txt) from the current directory and displays a list of all earnings for each
+app. 
+
+Amounts will be automatically converted to your local currency.  Edit the array
+in fxrates.php and enter the appropriate exchange rates and your local currency
+at key 'myCurrency'.
+
